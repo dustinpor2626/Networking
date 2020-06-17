@@ -1,0 +1,39 @@
+h1{
+    background-color:azure;
+    color:darkblue;
+    padding: 10 10 0 0;   
+}
+
+p1{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+
+li{
+    color: coral; 
+    font-size: 25px;
+    text-decoration :none;   
+}
+li:hover {
+    color: brown;
+    font-size: 25px;
+}
+#down{
+    background-color: dodgerblue;
+    height:40%;
+    border-top-right-radius:50px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 15px;
+}
+
+ul li{
+        list-style:none;
+}
+
+#last{
+    height:30%;
+    background-color:black;
+    border-top-right-radius: 30px;
+    border-radius: 15px;
+}

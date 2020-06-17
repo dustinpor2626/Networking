@@ -1,0 +1,31 @@
+ <html><head>
+         <title>Networking</title>
+    <link rel="icon" href="image/fevicon.jpg" />
+     <link rel="stylesheet" href="networking.css"></head>
+<body>
+     <img src="image/bridges.jpg" style="padding:140 10 10 80 ; float: right"><h1 style="padding: 50 10 0 150">BRIDGES</h1><hr>
+     <p style="font-size: 20">Bridges are networking devices that connect networks. Sometimes it is necessary to divide networks into subnets to reduce the amount of traffic on each larger subnet or for security reasons. Once divided, the bridge connects the two subnets and manages the traffic flow between them. Today, network switches have largely replaced bridges.
+<br><br>
+A bridge functions by blocking or forwarding data, based on the destination MAC address written into each frame of data. If the bridge believes the destination address is on a network other than that from which the data was received, it can forward the data to the other networks to which it is connected. If the address is not on the other side of the bridge, the data is blocked from passing. Bridges "learn" the MAC addresses of devices on connected networks by "listening" to network traffic and recording the network from which the traffic originates.
+         <br><br><br><br><br><b><em> Types of Bridges</em></b><br>
+Three types of bridges are used in networks. You don’t need detailed knowledge of how each bridge works, but you should have an overview:
+<br><br>
+         <b>Transparent bridge—</b>A transparent bridge is invisible to the other devices on the network. Transparent bridges perform only the function of blocking or forwarding data based on the MAC address; the devices on the network are oblivious to these bridges’ existence. Transparent bridges are by far the most popular types of bridges.<br><img src="image/transparent_bridges.jpg" style="padding: 15 0 10 100"><br><br>
+<br><br><br><br>
+         <b>Translational bridge—</b>A translational bridge can convert from one networking system to another. As you might have guessed, it translates the data it receives. Translational bridges are useful for connecting two different networks, such as Ethernet and Token Ring networks. Depending on the direction of travel, a translational bridge can add or remove information and fields from the frame as needed.<br><img src="image/translational_bridges.jpg" style="padding:10 0 10 100">
+<br><br><br><br>
+         <b>Source-route bridge—</b>Source-route bridges were designed by IBM for use on Token Ring networks. The source-route bridge derives its name from the fact that the entire route of the frame is embedded within the frame. This allows the bridge to make specific decisions about how the frame should be forwarded through the network. The diminishing popularity of Token Ring makes the chances that you’ll work with a source-route bridge very slim.<br><img src="image/source_route_bridges.gif" style="padding: 10 0 10 100"><br><br><br><br>
+         <b><em>How a bridge works</em></b><br><br>
+A bridge works at the data link layer of the OSI model, meaning that it operates using the physical addresses of the machines. In reality, the bridge is linked to several local area networks, called segments. The bridge creates a function table with the machines' addresses and the segments they belong to, and "listens" to the data running through the segments.
+<br><br>
+When data is transmitted, the bridge checks the function table for the segment the sending and receiving computers belong to (using their physical address, called the MAC address, and not their IP address). If they belong to the same segment, the bridge does nothing; otherwise, it switches the data over to the destination computer's segment.<br><img src="image/bridges_work.jpg" style="padding: 10 0 10 100">
+<br><br><br><br>
+         <b><em>What use is a bridge?</em></b><br>
+The bridge is used to segment a network, meaning that in the diagram shown above, communication between the three computers on top will not obstruct the lines running between the three computers on the bottom. The information will only pass through when a computer on one side of the bridge sends data to a computer on the other side. 
+What's more, these bridges can be linked to a modem, so they can work with a remote local area network as well.
+    </p>
+          <a href="index.html">back to previous>></a><br><br><hr>
+        <div id=last><p style="color:white;text-align: center;padding-top: 30">souravsingh2626@gmail.com
+            <br>indus hostel !!<br><br>room number 207......<br><br>contact..<br>8493073943<br>........................................................................................................................</p></div>
+     
+     </body></html>
